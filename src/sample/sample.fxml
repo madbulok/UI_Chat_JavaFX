@@ -7,8 +7,12 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.web.WebView?>
 
+<?import java.net.URL?>
 <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="386.0" prefWidth="558.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
 
+    <stylesheets>
+        <URL value="@css/style.css" />
+    </stylesheets>
 
     <children>
       <WebView fx:id="web" minHeight="-1.0" minWidth="-1.0" prefHeight="1500.0" prefWidth="-1.0">
